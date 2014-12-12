@@ -1,0 +1,702 @@
+<!DOCTYPE html>                                                                                                                                        
+<!--
+........888888 ............. ........... 888.................... 8D8.......... .
+.....788 ... 88O..... ........ ........D88.8.8.?...............D8D.8............
+....888 .....788............ ......... 88..DD88Z..............88D.,O.....888....
+...888...... 888...     .  ..      ...D88.8  ........... ..  888..8  ... 888....
+..D88....8 ,888...   8DO .8.. . .Z8 . 88  8  ?8 ....888  D...887 D O8 .,78888 . 
+..88D... .888.....$88  O88D   . 888 .888=8 O88....D8 . 888..88888D888. 8888=    
+.8888........... 888 ..888 ..  8O888 888:..88D...88... 88 ..888O. D88..:88?    .
+.I888...... 88O.I88.  .D8D.  .D. D88:88~..~88=. 888 ..D88..=88:..888:..888   .  
+. 888O .. O888..888  .8888  87  ..88888 ..888..~888 . 88D  888 . 888 .$88D   8  
+.. D888888888D8=D888DD 88D88.88. ,8. 888 ,88888 88888,88.8D888. .888=8.888888.  
+....:88+. 888 .. 888.. $88 . D888  . ,88D  D8=...O8  D88...$D8  .D8D .  888 .   
+....... 87888.......  . ..  ...   ................88.88 ...............    .  ..
+......8. 888...................... .............,8..888.................. .. ...
+......8 788.......  .....   .....  .............8  ~D=..........................
+.......8~... .....                 .  . .     .   8..  .  . .     .  . .                                
+-->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" ng-app="main"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+        <!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+        <div class="wrapper mt10">
+            <header-content></header-content>  
+            <main role="main">
+                <div class="container removePadMarMobile">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="col-sm-8 removePadding col-xs-12 mt10">
+                                <!--START VARIABLE SECTION-->
+                                <section>
+                                    <div class="home-carousel">
+                                        <a href="">
+                                            <header>
+                                                <span>Recent Activity</span>
+                                            </header>
+                                        </a>
+                                        <div id="home-slider" class="owl-carousel owl-theme">
+                                            <div class="item active recent-activity">
+                                                <a href=""><button class="btn btn-default btn_recent">GO</button></a>
+                                                <a href="#"><img src="assets/img/sam-cooke.jpg" class="center-block img-responsive feature-image" /></a>
+                                                <div class="carousel-caption">
+                                                    <div class="recent-activity-overlay">
+                                                        <div class="headline">
+                                                            <h1>Article</h1>
+                                                            <h2>Sam Cooke shot dead at 33</h2>
+                                                            <p>Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo | <a href="">Read more</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item recent-activity">
+                                                <a href=""><button class="btn btn-default btn_recent">GO</button></a>
+                                                <img src="assets/img/jack-ladder.jpg" class="center-block img-responsive feature-image" />
+                                                <div class="carousel-caption">
+                                                    <div class="recent-activity-overlay">
+                                                        <div class="headline">
+                                                            <h1>Guest Performance/Interview</h1>
+                                                            <h2>Jack Ladder Live at the Gaslight</h2>
+                                                            <p>Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo | <a href="">Read more</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item recent-activity">
+                                                <a href=""><button class="btn btn-default btn_recent">GO</button></a>
+                                                <img src="assets/img/bob-dylan.jpg" class="center-block img-responsive feature-image" />
+                                                <div class="carousel-caption">
+                                                    <div class="recent-activity-overlay">
+                                                        <div class="headline">
+                                                            <h1>Album Review</h1>
+                                                            <h2>Bob Dylan's new record - Blonde on Blonde</h2>
+                                                            <p>Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo | <a href="">Read more</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item recent-activity">
+                                                <a href=""><button class="btn btn-default btn_recent">GO</button></a>
+                                                <a href="#"><img src="assets/img/the-beatles.jpg" class="center-block img-responsive feature-image" /></a>
+                                                <div class="carousel-caption">
+                                                    <div class="recent-activity-overlay">
+                                                        <div class="headline">
+                                                            <h1>Album Review</h1>
+                                                            <h2>New single by the The Beatles</h2>
+                                                            <p>Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo | <a href="">Read more</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item recent-activity">
+                                                <a href=""><button class="btn btn-default btn_recent">GO</button></a>
+                                                <a href="#"><img src="assets/img/bobdylan-sub.jpg" class="center-block img-responsive feature-image" /></a>
+                                                <div class="carousel-caption">
+                                                    <div class="recent-activity-overlay">
+                                                        <div class="headline">
+                                                            <h1>Video</h1>
+                                                            <h2>The first ever music video?</h2>
+                                                            <p>Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo | <a href="">Read more</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section>
+                                    <div class="row">
+                                        <div class="col-sm-12 mt10 snapshots">
+                                            <a href="">
+                                                <header>
+                                                    <span>Live at the Gaslight</span>
+                                                </header>
+                                            </a>
+                                            <div class="row row-margin-0 pl5 pr5 pt10 box-content">
+                                                <div class="col-sm-6 col-xs-6 pl5 pr5 item">
+                                                    <img src="assets/img/ernestellis.jpg" class="img-responsive"/>
+                                                    <h1>Guest Performance</h1>
+                                                    <h2>Ernest Ellis performing Bob Dylan's 'Boots of Spanish Leather'</h2>
+                                                    <h3>27th November 2014</h3>
+                                                </div>
+                                                <div class="col-sm-6 col-xs-6 pl5 pr5 item">
+                                                    <img src="assets/img/jack.jpg" class="img-responsive"/>
+                                                    <h1>Guest Performance</h1>
+                                                    <h2>Jack Ladder performing Blind Willie McTell's 'How About You'</h2>
+                                                    <h3>13th November 2014</h3>
+                                                </div>
+                                            </div>
+                                            <button class="center-block readMore_btn">All Live At The Gaslight Tracks</button>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section>
+                                    <div class="row">
+                                        <div class="col-sm-12 mt10 snapshots">
+                                            <a href="">
+                                                <header>
+                                                    <span>Staff Top Rated Albums</span>
+                                                </header>
+                                            </a>
+                                            <div class="row row-margin-0 pl5 pr5 pt10 box-content pb10">
+                                                <div class="col-sm-3 col-xs-6 pl5 pr5 item">
+                                                    <img src="assets/img/lightnin-hopkins.jpg" class="img-responsive"/>
+                                                    <span class="score">10</span>
+                                                    <h2>Lightnin' Hopkins</h2>
+                                                    <h2 class="secondary">Lightnin' Strikes</h2>
+                                                </div>
+                                                <div class="col-sm-3 col-xs-6 pl5 pr5 item">
+                                                    <img src="assets/img/serge-gainsbourg1.jpg" class="img-responsive"/>
+                                                    <span class="score">9.7</span>
+                                                    <h2>Serge Gainsbourg</h2>
+                                                    <h2 class="secondary">Number 4</h2>
+                                                </div>
+                                                <div class="col-sm-3 col-xs-6 pl5 pr5 item">
+                                                    <img src="assets/img/nina-simone.jpg" class="img-responsive"/>
+                                                    <span class="score">9.3</span>
+                                                    <h2>Nina Simone</h2>
+                                                    <h2 class="secondary">At The Village Gate</h2>
+                                                </div>
+                                                <div class="col-sm-3 col-xs-6 pl5 pr5 item">
+                                                    <img src="assets/img/dick-dale.jpg" class="img-responsive"/>
+                                                    <span class="score">9.1</span>
+                                                    <h2>Dick Dale</h2>
+                                                    <h2 class="secondary">Surfers' Choice</h2>
+                                                </div>
+                                            </div>
+                                            <div class="row row-margin-0 pl5 pr5 pt10 box-content pb10 row-xs-height">
+                                                <div class="col-sm-2 col-xs-4 pl5 pr5 item">
+                                                    <img src="assets/img/frank-sinatra-all-alone.jpg" class="img-responsive"/>
+                                                    <span class="score">8.7</span>
+                                                    <h2>Frank Sinatra</h2>
+                                                    <h2 class="secondary">All Alone</h2>
+                                                </div>
+                                                <div class="col-sm-2 col-xs-4 pl5 pr5 item">
+                                                    <img src="assets/img/duane-eddy.jpg" class="img-responsive"/>
+                                                    <span class="score">8.6</span>
+                                                    <h2>Duane Eddy</h2>
+                                                    <h2 class="secondary">Twangy Guitar, Silky Strings</h2>
+                                                </div>
+                                                <div class="col-sm-2 col-xs-4 pl5 pr5 item">
+                                                    <img src="assets/img/chuck-berry2.jpg" class="img-responsive"/>
+                                                    <span class="score">8.5</span>
+                                                    <h2>Chuck Berry</h2>
+                                                    <h2 class="secondary">Twist</h2>
+                                                </div>
+                                                <div class="col-sm-2 col-xs-4 pl5 pr5 item">
+                                                    <img src="assets/img/the-beach-boys.jpg" class="img-responsive"/>
+                                                    <span class="score">8.3</span>
+                                                    <h2>The Beach Boys</h2>
+                                                    <h2 class="secondary">Surfin' Safari</h2>
+                                                </div>
+                                                <div class="col-sm-2 col-xs-4 pl5 pr5 item">
+                                                    <img src="assets/img/charles_countryf.jpg" class="img-responsive"/>
+                                                    <span class="score">8.2</span>
+                                                    <h2>Ray Charles</h2>
+                                                    <h2 class="secondary">Modern Sounds in Country and Western Music</h2>
+                                                </div>
+                                                <div class="col-sm-2 col-xs-4 pl5 pr5 item">
+                                                    <img src="assets/img/peter-paul-mary4.jpg" class="img-responsive"/>
+                                                    <span class="score">8.1</span>
+                                                    <h2>Peter, Paul & Mary</h2>
+                                                    <h2 class="secondary">Peter, Paul & Mary</h2>
+                                                </div>
+                                            </div>
+                                            <button class="center-block readMore_btn">See all top rated albums</button>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section>
+                                    <div class="row">
+                                        <div class="col-sm-12 mt10 snapshots">
+                                            <a href="">
+                                                <header>
+                                                    <span>Album Reviews</span>
+                                                </header>
+                                            </a>
+                                            <div class="row row-margin-0 pl5 pr5 pt10 box-content">
+                                                <div class="col-sm-3 col-xs-6 pl5 pr5 item withBlurb">
+                                                    <img src="assets/img/bobdylan-bd.jpg" class="img-responsive"/>
+                                                    <h1>Album Review</h1>
+                                                    <h2>Bob Dylan</h2>
+                                                    <h2 class="secondary">Bob Dylan</h2>
+                                                    <h3>27th November 2014</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                </div>
+                                                <div class="col-sm-3 col-xs-6 pl5 pr5 item withBlurb">
+                                                    <img src="assets/img/bobdylan-ttaac.jpg" class="img-responsive"/>
+                                                    <h1>Album Review</h1>
+                                                    <h2>Bob Dylan</h2>
+                                                    <h2 class="secondary">The Times They Are A Changin'</h2>
+                                                    <h3>27th November 2014</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                </div>
+                                                <div class="col-sm-3 col-xs-6 pl5 pr5 item withBlurb">
+                                                    <img src="assets/img/bob-dylan-asobd.jpg" class="img-responsive"/>
+                                                    <h1>Album Review</h1>
+                                                    <h2>Bob Dylan</h2>
+                                                    <h2 class="secondary">Another Side Of Bob Dylan</h2>
+                                                    <h3>27th November 2014</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                </div>
+                                                <div class="col-sm-3 col-xs-6 pl5 pr5 item withBlurb">
+                                                    <img src="assets/img/bobdylan-biabh.jpg" class="img-responsive"/>
+                                                    <h1>Album Review</h1>
+                                                    <h2>Bob Dylan</h2>
+                                                    <h2 class="secondary">Bringing It All Back Home</h2>
+                                                    <h3>27th November 2014</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                </div>
+                                            </div>
+                                            <button class="center-block readMore_btn">See all album reviews</button>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section>
+                                    <div class="row">
+                                        <div class="col-sm-12 mt10 snapshots">
+                                            <a href="">
+                                                <header>
+                                                    <span>Track Reviews</span>
+                                                </header>
+                                            </a>
+                                            <div class="row row-margin-0 pl5 pr5 pt10 box-content">
+                                                <div class="col-sm-3 col-xs-6 pl5 pr5 item withBlurb">
+                                                    <img src="assets/img/born-in-the-usa.jpg" class="img-responsive"/>
+                                                    <h1>Track Review</h1>
+                                                    <h2>Bruce Springsteen</h2>
+                                                    <h2 class="secondary">Born In The USA</h2>
+                                                    <h3>27th November 2014</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                </div>
+                                                <div class="col-sm-3 col-xs-6 pl5 pr5 item withBlurb">
+                                                    <img src="assets/img/beatles_letitbe7JAP_fr.jpg" class="img-responsive"/>
+                                                    <h1>Track Review</h1>
+                                                    <h2>The Beatles</h2>
+                                                    <h2 class="secondary">Let It Be</h2>
+                                                    <h3>19th November 2014</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                </div>
+                                                <div class="col-sm-3 col-xs-6 pl5 pr5 item withBlurb">
+                                                    <img src="assets/img/donovan-catch_the_wind(hallmark).jpg" class="img-responsive"/>
+                                                    <h1>Track Review</h1>
+                                                    <h2>Donovan</h2>
+                                                    <h2 class="secondary">Catch The Wind</h2>
+                                                    <h3>12th August 2011</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                </div>
+                                                <div class="col-sm-3 col-xs-6 pl5 pr5 item withBlurb">
+                                                    <img src="assets/img/them.jpg" class="img-responsive"/>
+                                                    <h1>Track Review</h1>
+                                                    <h2>Them</h2>
+                                                    <h2 class="secondary">Gloria</h2>
+                                                    <h3>27th November 2014</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                </div>
+                                            </div>
+                                            <button class="center-block readMore_btn">See all tracks reviews</button>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section>
+                                    <div class="row">
+                                        <div class="col-sm-12 mt10 snapshots">
+                                            <a href="">
+                                                <header>
+                                                    <span>Guest Interviews</span>
+                                                </header>
+                                            </a>
+                                            <div class="row row-margin-0 pl5 pr5 pt10 box-content">
+                                                <div class="col-sm-3 col-xs-6 pl5 pr5 item">
+                                                    <img src="assets/img/jack-ladder-sq.jpg" class="img-responsive"/>
+                                                    <h1>Guest Interview</h1>
+                                                    <h2>Interview with Jack Ladder</h2>
+                                                    <h3>20th September 2014</h3>
+                                                </div>
+                                            </div>
+                                        <button class="center-block readMore_btn">See all interviews</button>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section>
+                                    <div class="row">
+                                        <div class="col-sm-12 mt10 snapshots">
+                                            <a href="">
+                                                <header>
+                                                    <span>Features</span>
+                                                </header>
+                                            </a>
+                                            <div class="row row-margin-0 pl5 pr5 pt10 box-content">
+                                                <div class="col-sm-3 col-xs-6 pl5 pr5 item">
+                                                    <img src="assets/img/theanimals-hotrs.jpg" class="img-responsive"/>
+                                                    <h1>Article</h1>
+                                                    <h2>History of House of the Rising Sun</h2>
+                                                    <h3>27th November 2014</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                </div>
+                                            </div>
+                                            <button class="center-block readMore_btn">See all features</button>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section>
+                                    <div class="row">
+                                        <div class="col-sm-12 mt10 snapshots">
+                                            <a href="">
+                                                <header>
+                                                    <span>From around the web</span>
+                                                </header>
+                                            </a>
+                                            <div class="row row-margin-0 pl5 pr5 pt10 box-content">
+                                                <div class="col-sm-3 col-xs-6 pl5 pr5 item">
+                                                    <img src="assets/img/crystler.jpg" class="img-responsive"/>
+                                                    <h1>drive.com.au</h1>
+                                                    <h2>Chrysler bringing unique 'beast' to Australia</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <aside>
+                                <div class="col-sm-4 col-xs-12 removePaddingRight removePaddingXS mt10 rankingsWrapper">
+                                    <section ng-controller="PanelController as panel" class="nonAd">
+                                        <header>
+                                            <span>TOP RATED TRACKS</span>
+                                        </header>
+                                        <div class="tabToggle overflowFix">
+                                            <a class="tab1" ng-class="{current:panel.isSelected(1)}" ng-click="panel.selectTab(1)">This Month</a>
+                                            <a class="tab2" ng-class="{current:panel.isSelected(2)}" ng-click="panel.selectTab(2)">This Year</a>
+                                            <a class="tab3" ng-class="{current:panel.isSelected(3)}" ng-click="panel.selectTab(3)">All Time</a>
+                                        </div>
+                                        <div class="tabContent" ng-show="panel.isSelected(1)">                            
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>1</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Can't Help Falling In Love</h1>
+                                                    <h2>Elvis Presley</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>2</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Stand By me</h1>
+                                                    <h2>Ben E. King</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>3</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Havin' A Party</h1>
+                                                    <h2>Sam Cooke</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>4</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Cyprus Avenue</h1>
+                                                    <h2>Van Morrison</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>5</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Light My Fire</h1>
+                                                    <h2>The Doors</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>6</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Sinnerman</h1>
+                                                    <h2>Nina Simone</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>7</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Angie</h1>
+                                                    <h2>The Rolling Stones</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>8</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Honky Tonk Blues</h1>
+                                                    <h2>Hank Williams</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>9</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Like A Rolling Stone</h1>
+                                                    <h2>Bob Dylan</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>10</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>I Ain't Got No Home</h1>
+                                                    <h2>Woody Guthrie</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tabContent" ng-show="panel.isSelected(2)">                            
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>1</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Fools Rush In</h1>
+                                                    <h2>Etta James</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>2</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Any Day Now</h1>
+                                                    <h2>Chuck Jackson</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>3</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Dance On!</h1>
+                                                    <h2>The Shadows</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>4</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>If I Had A Hammer</h1>
+                                                    <h2>Peter, Paul & Mary</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>5</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Tomorrow Is A Long Time</h1>
+                                                    <h2>Bob Dylan</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>6</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Telstar</h1>
+                                                    <h2>The Tornados</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>7</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Blue Christmas</h1>
+                                                    <h2>Elvis Presley</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>8</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>White Christmas</h1>
+                                                    <h2>The Drifters</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>9</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>That Lucky Old Sun</h1>
+                                                    <h2>Aretha Franklin</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>10</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Babe, I'm Gonna Leave You</h1>
+                                                    <h2>joan Baez</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tabContent" ng-show="panel.isSelected(3)">                            
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>1</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Keep Your Hands Off My Baby</h1>
+                                                    <h2>Little Eva</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>2</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Worried Blues</h1>
+                                                    <h2>Bob Dylan</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>3</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>I'm On My Way</h1>
+                                                    <h2>The Highwaymen</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>4</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>A Shot Of Rhythem & Blues</h1>
+                                                    <h2>Johnny Kidd & The Pirates</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>5</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Sydney Town</h1>
+                                                    <h2>Gary Shearston</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>6</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Baby I'm In The Mood For You</h1>
+                                                    <h2>Bob Dylan</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>7</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Working For The Man</h1>
+                                                    <h2>Roy Orbison</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>8</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>I Remember You</h1>
+                                                    <h2>Frank Ifield</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>9</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Bring It On Home To Me</h1>
+                                                    <h2>Sam Cooke</h2>
+                                                </div>
+                                            </div>
+                                            <div class="rankings">
+                                                <div class="col-xs-2 removePadding rank">
+                                                    <span>10</span>
+                                                </div>
+                                                <div class="col-xs-10 removePadding">
+                                                    <h1>Shout Bamalama</h1>
+                                                    <h2>Otis Redding</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="center-block readMore_btn">See all tracks</button>
+                                    </section>
+                                    <section>
+                                        <div class="side-ad">
+                                            <img src="assets/img/brixton.jpg" class="img-responsive center-block" />
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <button class="center-block readMore_btn backToTop_btn mt10 scrollToTop" style="text-align:center;">BACK TO TOP</button>
+                                    </section>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer-nav></footer-nav>
+        </div>
+        <script src="assets/js/vendor/jquery-1.11.1.min.js"></script>
+        <script src="assets/js/vendor/jquery.easing.min.js"></script>
+        <script src="assets/js/custom.min.js"></script>
+        <script src="assets/js/counter.min.js"></script>
+        <script src="assets/js/vendor/owl.carousel.min.js"></script>
+        <script src="assets/js/vendor/angular.min.js"></script>
+        <script src="assets/js/app.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
